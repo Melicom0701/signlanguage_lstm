@@ -38,4 +38,5 @@ if __name__ == "__main__":
     image = cv2.imread(image_path)
 
     prediction = predictor.predict(image)
+    print(prediction)
     
